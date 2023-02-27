@@ -1,0 +1,47 @@
+# Strings
+myself: "I am AK"
+fruit: Apple
+job: 'software developer'
+
+# These are three ways to write the strings
+---
+bio:|
+Heyy ! my name is Abhishek
+I am studying at Jspm Rscoe
+
+---
+
+message:>
+This will
+come in single 
+line due to this symbol >
+
+---
+
+number : 456
+marks : 45.34
+booleanValue : No
+
+---
+# Datatypes
+
+zero: !!int 0
+positiveNum: !!int 343
+negativeNum: !!int -34
+binaryNum: !!int 010101011001
+octalNum: !!int 0854
+commaValue: !!int +5040_234  # 5040,234
+
+# Floating Point Numbers
+
+marks: !!Float 56.345
+infinite: !!Float .infinite
+not a num: .nan
+
+
+--- 
+
+# Dates and Time
+
+date: 06/06/2003
+date: !!timestamp 27/04/23
